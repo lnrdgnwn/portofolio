@@ -166,9 +166,7 @@ body {
 .social img:hover {
     width: 40px;
     height: 40px;
-}
-
-/* 
+} 
 
 .about {
     display: flex;
@@ -347,7 +345,6 @@ body {
     font-family: arial;
     font-weight: bold;
 }
-*/
 
 /* Hamburger Menu */
 .menu-toggle {
