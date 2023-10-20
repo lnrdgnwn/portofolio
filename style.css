@@ -500,23 +500,37 @@ a.btn {
     }
 
     .about-image-container img {
-        max-width: 400px;
-        max-height: 400px;
+        width: 300px;
+        height: 300px;
     }
 
     .about-description {
-        line-height: 1.5;
+        line-height: 1;
         align-self: center;
         justify-content: center;
         margin: 0;
     }
 
+    .about-description p {
+        font-size: 16px;
+    }
+
     .education {
-        margin-top: 300px;
+        margin-top: 100px;
     }
 
     .education-title {
         padding: 0 -10% 0;
+    }
+
+    .education-image-container img {
+        width: 130px;
+        height: 130px;
+        margin-top: 20px;
+    }
+
+    .education-description {
+        font-size: 16px;
     }
 
     .menu-toggle {
@@ -529,6 +543,10 @@ a.btn {
 
     .contact {
         margin-top: -200px;
+    }
+
+    .contact p {
+        font-size: 1em;
     }
 
 }
@@ -568,6 +586,10 @@ a.btn {
     .about-image-container {
         justify-content: center;
         align-items: center;
+    }
+
+    .education {
+        margin-top: 100px;
     }
 
     .about-description {
